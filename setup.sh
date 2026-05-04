@@ -14,8 +14,8 @@ if [ -f "config.env" ]; then
 fi
 
 # Default configuration if not set in config.env
-BACKEND_REPO_URL="${BACKEND_REPO_URL:-https://github.com/your-username/task-runner-back.git}"
-FRONTEND_REPO_URL="${FRONTEND_REPO_URL:-https://github.com/your-username/task-runner-front.git}"
+BACKEND_REPO_URL="${BACKEND_REPO_UR}"
+FRONTEND_REPO_URL="${FRONTEND_REPO_URL}"
 
 # Create directories if they don't exist
 mkdir -p task-runner-back

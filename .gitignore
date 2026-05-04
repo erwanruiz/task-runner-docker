@@ -1,6 +1,7 @@
 # Exclude cloned project directories
 task-runner-back/
 task-runner-front/
+deploy/
 
 # IDE
 .idea/
